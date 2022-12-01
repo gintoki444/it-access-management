@@ -1,12 +1,15 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import CategodyProduct from "./Pages/CategodyProduct";
+import './App.css';
 
 function App() {
   return (
     <>
-    <BrowserRouter basename="/">
-      <Routes>
-      </Routes>
-    </BrowserRouter>
+      <BrowserRouter basename="/">
+        <Routes>
+          <Route path="/" element={<CategodyProduct />} exact />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
