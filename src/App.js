@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import CategodyProduct from "./Pages/CategodyProduct";
+import CategodyItem from "./Pages/CategodyItem";
 import './App.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <>
       <BrowserRouter basename="/">
         <Routes>
-          <Route path="/" element={<CategodyProduct />} exact />
+          <Route path="/" element={<CategodyItem />} exact />
         </Routes>
       </BrowserRouter>
     </>

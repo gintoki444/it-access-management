@@ -3,6 +3,9 @@ import { Button, Form } from "react-bootstrap";
 function FormCategory() {
   return (
     <>
+      <h4 className="text-center" style={{ padding: 30 }}>
+        เพิ่มหมวดหมู่
+      </h4>
       <Form>
         <Form.Group className="mb-3" controlId="formCatName">
           <Form.Label>ชื่อหมวดหมู่</Form.Label>
